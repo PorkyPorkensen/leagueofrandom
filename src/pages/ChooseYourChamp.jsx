@@ -41,7 +41,6 @@ React.useEffect(() => {
   }
 
   loadData()
-  setisHidden(true);
 }, [selectedChamp, dummyState]);
   
 
