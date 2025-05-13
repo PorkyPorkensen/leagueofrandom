@@ -1,0 +1,1 @@
+ const itemTags = ['Health', 'SpellBlock', 'Armor', 'CooldownReduction', 'AbilityHaste', 'SpellDamage', 'ManaRegen', 'NonbootsMovement', 'Slow', 'Mana', 'Damage', 'CriticalStrike', 'AttackSpeed', 'ArmorPenetration', 'Tenacity', 'OnHit', 'LifeSteal', 'SpellVamp', 'Aura', 'MagicPenetration', 'Vision', 'HealthRegen']

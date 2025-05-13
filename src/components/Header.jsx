@@ -8,8 +8,9 @@ export default function Header(){
         <div className='headerDiv'>
             <Link className='siteHeader' to='/'>League of Random</Link>
             <div className='linkDiv'>
-                <Link className='links' to='/'>Elo Demolisher</Link>
+                <Link className='links' to='/'>About</Link>
                 <Link className='links' to='/cyc'>Choose Your Champ</Link>
+                <Link className='links' to='/random'>Elo Demolisher</Link>
             </div>
         </div>
     </div>
