@@ -90,7 +90,7 @@ const displayNameFix = {
       >
         Refresh
       </button>
-      <h2 className="head">{isHidden ? 'Choose your build style' : 'Building...'}</h2>
+      <h2 >{isHidden ? 'Choose your build style' : 'Building...'}</h2>
       <BuildButtons
         onSoftClick={getBetterItems}
         onMildClick={getRandomSuggestedItems}
