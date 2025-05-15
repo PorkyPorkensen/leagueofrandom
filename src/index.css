@@ -63,8 +63,9 @@ code {
   }
 }
 
-.champPic {
-  width: 35%;
+
+.champDiv img, .champPic {
+  width: 200px;
   margin: 15px;
   max-width: 300px;
 }
@@ -81,6 +82,7 @@ code {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.815);
   justify-content: space-evenly;
   max-width: 1000px;
+  border: 2px solid black;
 }
 
 .buildUl li {
@@ -92,11 +94,13 @@ code {
   overflow-wrap: break-word;
   white-space: normal;
   text-align: center;
+  letter-spacing: 0.05em;
 }
 
 .buildUl img {
   width: 50px;
   max-width: 125px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.815);
 }
 
 .refreshBtn, .refreshBtn2 {
@@ -104,7 +108,7 @@ code {
   color: rgb(90, 172, 53);
   border: 1px solid rgb(90, 172, 53);
   border-radius: 5px;
-  font-size: large;
+  font-size: 1.2em;
   margin-top: 1em;
   cursor: pointer;
 }
@@ -219,7 +223,30 @@ select {
   margin-bottom: 0.5em;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+    .buildUl {
+    font-size: 1.3em;
+    gap: 0.4em;
+  }
+
+  .buildUl img {
+    width: 65px;
+  }
+
+  .buildBtn {
+    width: 125px;
+    height: 125px;
+    font-size: 1.2em;
+  }
+
+  .champDiv img, .champPic {
+  width: 225px;
+  margin: 15px;
+
+}
+}
+
+@media (min-width: 1025px) {
   .buildUl {
     font-size: 1.5em;
     gap: 0.5em;
@@ -232,5 +259,12 @@ select {
   .buildBtn {
     width: 160px;
     height: 160px;
+    font-size: 1.5em;
   }
+
+  .champDiv img, .champPic {
+  width: 300px;
+  margin: 15px;
+
+}
 }
