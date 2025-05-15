@@ -6,7 +6,7 @@ export default function BuildList({ items = [] }) {
       {items.map(item => (
         <li key={item.id}>
           <img src={item.imgUrl} alt={item.name} />
-          <h3>{item.name}</h3>
+          <span title={item.name}>{item.name}</span>
         </li>
       ))}
     </ul>
