@@ -34,10 +34,10 @@ export default function FullRandom() {
 
   return (
     <div className="App">
-      <h1>You're Playing....</h1>
+      <h1 className='yp'>You're Playing</h1>
       <ChampionCard champ={champ} position={position} />
       <button className='refreshBtn' onClick={() => setRefreshCount(prev => prev + 1)}>Refresh</button>
-      <h2 className='head'>Building...</h2>
+      <h2 className='head'>Building</h2>
       <BuildList items={build} />
     </div>
   );

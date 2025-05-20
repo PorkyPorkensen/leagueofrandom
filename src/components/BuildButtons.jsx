@@ -5,7 +5,7 @@ export default function BuildButtons({ onSoftClick, onMildClick, onRandomClick }
     <div className="btnDiv">
       <button className="buildBtn soft" onClick={onSoftClick}>Soft 🤡</button>
       <button className="buildBtn mild" onClick={onMildClick}>Mild 🥸</button>
-      <button className="buildBtn red" onClick={onRandomClick}>Fully Random 🗿</button>
+      <button className="buildBtn full" onClick={onRandomClick}>Fully Random 🗿</button>
     </div>
   );
 }
